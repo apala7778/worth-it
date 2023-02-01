@@ -1,0 +1,65 @@
+html , body , .hero {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Inter';
+    font-size: 30px;
+    color: aqua;
+    box-sizing: border-box;
+}
+
+.hh {
+    text-align: center;
+    text-decoration: underline;
+}
+.hero > p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+ .local {
+    align-items: center;
+    align-content: center;
+    margin-left: 600px;
+    width: 400px;
+    height: auto;
+}
+
+.career > a{
+    font-size: 30px;
+    color: gray;
+   display: flex;
+   justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.blog >a {
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.foot {
+    display: flex;
+    font-size: 20px;
+    color: gray;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 100px;
+   
+
+}
+.foot > a:visited{
+    color: gray;
+}
+
+
+

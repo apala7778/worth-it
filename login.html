@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/a0c1baffb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div className="app" data-theme={theme}>
+        <div class="login">
+          <h1> Login </h1>
+          <div class="container">
+            <div class="top">
+              <i class='fab fa-google'></i>
+              <i class='fab fa-facebook-square'></i>
+              <i class='fab fa-linkedin'></i>
+              <i class='fab fa-twitter-square'></i>
+              <i class='fab fa-apple'></i>
+            </div>
+             <p class="divider"><span>or</span></p>
+             <form>
+              <label>E-mail</label>
+              <input type='email' placeholder="Enter your email" />
+              <label>Password</label>
+              <input type='password' placeholder="Enter your password" />
+              <div class="remember">
+                <input type="checkbox" checked='checked'/>
+                <p>remember Me</p>
+              </div>
+              <button>Log In</button>
+             </form>
+             <div class="bottom">
+              <p>Forget your password</p>
+              <a href='/'>Reset Password</a>
+             </div>
+             <p class="create"></p>
+          </div>
+          <!-- <div class="theme-toggle">
+            <h2>Light Theme</h2>
+            <i onClick={switchTheme} class='fas fa-toggle-on'></i>
+          </div> -->
+        </div>
+
+        <div class="foot"><a href="main.html">Back to Home</a></div>
+      </div>
+</body>
+</html>
